@@ -6,6 +6,7 @@ RUN apt-get update --fix-missing
 RUN apt-get upgrade -y 
 RUN apt-get dist-upgrade -y
 RUN apt-get install wget -y
+RUN apt-get install xvfb -y
 RUN apt-get install chromium-browser -y
 RUN apt-get install openjdk-8-jdk -y
 RUN apt-get install python3.9 python3-pip -y
