@@ -18,5 +18,6 @@ RUN python3 -m pip install --upgrade RESTinstance
 RUN python3 -m pip install --upgrade robotframework-appiumlibrary
 RUN python3 -m pip install robotframework-SikuliLibrary
 RUN python3 -m pip install robotframework-browser
+RUN python3 -m pip install robotframework-faker
 RUN python3 -m pip install webdrivermanager
 RUN python3 -m webdrivermanager firefox chrome --linkpath /usr/local/bin
