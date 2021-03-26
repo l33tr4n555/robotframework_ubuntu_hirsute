@@ -8,6 +8,7 @@ RUN apt-get dist-upgrade -y
 RUN apt-get install wget -y
 RUN apt-get install chromium-browser -y
 RUN apt-get install openjdk-8-jdk -y
+RUN apt-get install openjdk-11-jdk -y
 RUN apt-get install python3.9 python3-pip -y
 RUN apt-get autoremove -y
 RUN python3 -m pip install --upgrade "pip < 21.0"
